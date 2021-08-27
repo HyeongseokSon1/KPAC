@@ -59,7 +59,7 @@ If you find this code useful, please consider citing:
 @InProceedings{Son_2021_ICCV,
     author = {Son, Hyeongseok and Lee, Junyong and Cho, Sunghyun and Lee, Seungyong},
     title = {Single Image Defocus Deblurring Using Kernel-Sharing Parallel Atrous Convolutions},
-    journal = {Proc. ICCV},
+    booktitle = {Proc. ICCV},
     year = {2021}
 }
 ```

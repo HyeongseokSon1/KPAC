@@ -20,7 +20,7 @@ This repository contains the official Tensorflow implementation of the following
 ![Tensorflow 1.10.0](https://img.shields.io/badge/Tensorflow-1.10.0-green.svg?style=plastic)
 ![CUDA 9.0](https://img.shields.io/badge/CUDA-9.0-green.svg?style=plastic)
 
-**Pre-trained models**
+1. **Pre-trained models**
 
         ```
         ├── ./pretrained
@@ -29,14 +29,14 @@ This repository contains the official Tensorflow implementation of the following
         │   ├── dual.npz
         ```
 
-**Built-in Tensorlayer**
+2. **Built-in Tensorlayer**
 (modified from [Tensorlayer 1.7.0](https://tensorlayer.readthedocs.io/en/1.7.0/index.html))
 
         ```
         ├── ./tensorlayer
         ```
 
-**Datapath setting in config.py**
+3. **Datapath setting in config.py**
 
 ## Testing models of ICCV2021
 

@@ -36,6 +36,8 @@ This repository contains the official Tensorflow implementation of the following
         ├── ./tensorlayer
         ```
 
+**Datapath setting in config.py**
+
 ## Testing models of ICCV2021
 
 ```shell

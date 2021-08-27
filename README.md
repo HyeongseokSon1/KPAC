@@ -20,8 +20,7 @@ This repository contains the official Tensorflow implementation of the following
 ![Tensorflow 1.10.0](https://img.shields.io/badge/Tensorflow-1.10.0-green.svg?style=plastic)
 ![CUDA 9.0](https://img.shields.io/badge/CUDA-9.0-green.svg?style=plastic)
 
-1. **Pre-trained models**
-    * Download and unzip [pretrained weights](https://www.dropbox.com/sh/frpegu68s0yx8n9/AACrptFFhxejSyKJBvLdk9IJa?dl=1) under `./ckpt/`:
+**Pre-trained models**
 
         ```
         ├── ./pretrained
@@ -42,3 +41,34 @@ CUDA_VISIBLE_DEVICES=0 python main_eval_3level.py
 # Our dual pixel-based model
 CUDA_VISIBLE_DEVICES=0 python main_eval_dual.py
 ```
+
+
+
+## Citation
+If you find this code useful, please consider citing:
+```
+@InProceedings{Son_2021_ICCV,
+    author = {Son, Hyeongseok and Lee, Junyong and Cho, Sunghyun and Lee, Seungyong},
+    title = {Single Image Defocus Deblurring Using Kernel-Sharing Parallel Atrous Convolutions},
+    journal = {Proc. ICCV},
+    year = {2021}
+}
+```
+
+## Contact
+Open an issue for any inquiries.
+You may also have contact with [sonhs@postech.ac.kr](mailto:sonhs@postech.ac.kr)
+
+## License
+This software is being made available under the terms in the [LICENSE](LICENSE) file.
+
+Any exemptions to these terms require a license from the Pohang University of Science and Technology.
+
+## About Coupe Project
+Project ‘COUPE’ aims to develop software that evaluates and improves the quality of images and videos based on big visual data. To achieve the goal, we extract sharpness, color, composition features from images and develop technologies for restoring and improving by using them. In addition, personalization technology through user reference analysis is under study.  
+    
+Please checkout other Coupe repositories in our [Posgraph](https://github.com/posgraph) github organization.
+
+### Useful Links
+* [Coupe Library](http://coupe.postech.ac.kr/)
+* [POSTECH CG Lab.](http://cg.postech.ac.kr/)

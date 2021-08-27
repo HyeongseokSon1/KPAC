@@ -29,6 +29,13 @@ This repository contains the official Tensorflow implementation of the following
         │   ├── dual.npz
         ```
 
+**Built-in Tensorlayer**
+(modified from [Tensorlayer 1.7.0](https://tensorlayer.readthedocs.io/en/1.7.0/index.html))
+
+        ```
+        ├── ./tensorlayer
+        ```
+
 ## Testing models of ICCV2021
 
 ```shell
